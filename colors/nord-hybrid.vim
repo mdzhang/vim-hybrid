@@ -1,6 +1,6 @@
-" File:       hybrid.vim
-" Maintainer: Andrew Wong (w0ng)
-" URL:        https://github.com/w0ng/vim-hybrid
+" File:       nord-hybrid.vim
+" Maintainer: Michelle D Zhang (mdzhang)j
+" URL:        https://github.com/mdzhang/vim-nord-hybrid
 " Modified:   27 Jan 2013 07:33 AM AEST
 " License:    MIT
 
@@ -348,10 +348,6 @@ let &background = s:style
 " }}}
 " Legal:"{{{
 " ----------------------------------------------------------------------------
-" Copyright (c) 2011 Ethan Schoonover
-" Copyright (c) 2009-2012 NanoTech
-" Copyright (c) 2012 w0ng
-"
 " Permission is hereby granted, free of charge, to any per‐
 " son obtaining a copy of this software and associated doc‐
 " umentation files (the “Software”), to deal in the Soft‐
