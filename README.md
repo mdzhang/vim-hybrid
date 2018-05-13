@@ -19,3 +19,7 @@ A dark colour scheme for Vim that combines:
     set background=dark
     colorscheme nord-hybrid
     ```
+
+## Preview
+
+<img width="921" alt="screenshot 2018-05-13 12 16 27" src="https://user-images.githubusercontent.com/3429763/39969340-54a807ae-56a8-11e8-957b-4d8356618cd8.png">
