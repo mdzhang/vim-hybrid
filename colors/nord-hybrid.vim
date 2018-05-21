@@ -240,7 +240,7 @@ exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
 exe "hi! SpecialKey"    .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! SpellCap"      .s:fg_blue        .s:bg_blue    .s:fmt_undr
 exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_aqua    .s:fmt_undr
-exe "hi! SpellBad"      .s:fg_red         .s:bg_red     .s:fmt_undr
+exe "hi! SpellBad"      .s:fg_foreground  .s:bg_red     .s:fmt_undr
 exe "hi! SpellRare"     .s:fg_purple      .s:bg_purple  .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_comment     .s:bg_background  .s:fmt_revr
 exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
@@ -308,7 +308,7 @@ exe "hi! Underlined"      .s:fg_blue        .s:bg_none        .s:fmt_none
 
 exe "hi! Ignore"          .s:fg_none        .s:bg_none        .s:fmt_none
 
-exe "hi! Error"           .s:fg_red         .s:bg_red     .s:fmt_undr
+exe "hi! Error"           .s:fg_foreground  .s:bg_red         .s:fmt_undr
 
 exe "hi! Todo"            .s:fg_addfg       .s:bg_none        .s:fmt_none
 
