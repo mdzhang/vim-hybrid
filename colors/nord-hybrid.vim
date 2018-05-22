@@ -227,7 +227,7 @@ exe "hi! SignColumn"    .s:fg_none        .s:bg_darkcolumn  .s:fmt_none
 "   Incsearch"
 exe "hi! LineNr"        .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! CursorLineNr"  .s:fg_yellow      .s:bg_none        .s:fmt_none
-exe "hi! MatchParen"    .s:fg_yellow .s:bg_changebg    .s:fmt_none
+exe "hi! MatchParen"    .s:fg_yellow      .s:bg_changebg    .s:fmt_none
 exe "hi! ModeMsg"       .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! MoreMsg"       .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! NonText"       .s:fg_selection   .s:bg_none        .s:fmt_none
@@ -238,10 +238,10 @@ exe "hi! PmenuSel"      .s:fg_foreground  .s:bg_selection   .s:fmt_revr
 exe "hi! Question"      .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
 exe "hi! SpecialKey"    .s:fg_selection   .s:bg_none        .s:fmt_none
-exe "hi! SpellCap"      .s:fg_blue        .s:bg_blue    .s:fmt_undr
-exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_aqua    .s:fmt_undr
-exe "hi! SpellBad"      .s:fg_foreground  .s:bg_red     .s:fmt_undr
-exe "hi! SpellRare"     .s:fg_purple      .s:bg_purple  .s:fmt_undr
+exe "hi! SpellCap"      .s:fg_blue        .s:bg_yellow      .s:fmt_undr
+exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_aqua        .s:fmt_undr
+exe "hi! SpellBad"      .s:fg_foreground  .s:bg_red         .s:fmt_undr
+exe "hi! SpellRare"     .s:fg_purple      .s:bg_purple      .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_comment     .s:bg_background  .s:fmt_revr
 exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
 exe "hi! TabLine"       .s:fg_foreground  .s:bg_darkcolumn  .s:fmt_revr
